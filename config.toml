@@ -104,3 +104,16 @@ DefaultContentLanguage           = "en"                    # Default language fo
         [languages.es.params]
             description  = "Hemsidans beskrivining"
             # footerText   = ""
+
+[deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+order = [".jpg$", ".gif$"]
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "mydeployment"
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+URL = "s3://freddyvandalay.com?region=eu-west-2"
