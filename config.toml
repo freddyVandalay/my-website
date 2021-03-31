@@ -6,7 +6,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
 
 [params]
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
-    favicon                      = "img/fav.ico"          # Path to favicon file
+    favicon                      = "/img/fav.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
@@ -123,7 +123,7 @@ name = "mydeployment"
 URL = "s3://freddyvandalay.com?region=eu-west-2"
 
 # If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
-cloudFrontDistributionID = "xxxxxxxxx" # TODO
+cloudFrontDistributionID = "ENUI33BK6TQQE"
 
 # Optionally, you can include or exclude specific files.
 # See https://godoc.org/github.com/gobwas/glob#Glob for the glob pattern syntax.
