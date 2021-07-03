@@ -1,4 +1,4 @@
-baseURL                          = "http://example.com/"   # Your domain name. Must end with "/"
+baseURL                          = "http://freddyvandalay.com/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
@@ -105,7 +105,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         contentDir       = "content/sv"
         weight           = 1
         title            = "Introduktion"
-        [languages.es.params]
+        [languages.sv.params]
             description  = "Hemsidans beskrivining"
             # footerText   = ""
 
