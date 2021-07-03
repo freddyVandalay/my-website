@@ -1,4 +1,4 @@
-baseURL                          = "http://example.com/"   # Your domain name. Must end with "/"
+baseURL                          = "http://freddyvandalay.com/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
@@ -6,7 +6,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
 
 [params]
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
-    favicon                      = "/img/fav.ico"          # Path to favicon file
+    favicon                      = "/img/favicon.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
@@ -105,7 +105,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         contentDir       = "content/sv"
         weight           = 1
         title            = "Introduktion"
-        [languages.es.params]
+        [languages.sv.params]
             description  = "Hemsidans beskrivining"
             # footerText   = ""
 
